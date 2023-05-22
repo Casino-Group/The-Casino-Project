@@ -1,6 +1,7 @@
 import ascii_art
 from blackjack import play_blackjack
 from horse_betting import play_horse_betting
+from slot_machine import play_slot_machine
 
 print(ascii_art.title)
 
@@ -31,16 +32,13 @@ while casino:
         case 2:
             print("You chose Roulette")
         case 3:
-            print("You chose Slot Machine")
+            play_slot_machine()
         case 4:
             play_horse_betting()
         case 5:
             casino = False
-            print("Thank you for playing in the casino. Goodbye!")
+            print("Thank you for playing in the casino!")
+            print(ascii_art.goodbye)
         case _:
             print("You chose an invalid option")
-
-
-
-
 

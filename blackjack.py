@@ -39,19 +39,6 @@ def play_blackjack():
         elif score2 > 21:
             print("You win!")
 
-    def hit_winner(score1, score2):
-        final_hand()
-        if score1 > 21:
-            print("Computer wins!")
-        elif score2 > 21:
-            print("You win!")
-        elif score2 == 21:
-            print("Computer hit the road Jack!")
-        elif score1 == 21:
-            print("You hit the road Jack!")
-        elif score1 == score2:
-            print("Draw!")
-
     def blackjack(score1, score2):
         if score1 == 21:
             final_hand()
@@ -82,7 +69,6 @@ def play_blackjack():
             is_winner = True
 
         while not is_winner:
-            is_winner = False
             hit_or_stand = input("\nHit or Stand? ").lower()
 
             while hit_or_stand == "hit":
@@ -120,12 +106,11 @@ def play_blackjack():
 
                 final_scores = [your_score, computer_score]
                 winner(your_score, computer_score, final_scores)
-                is_winner = True
                 break
 
         play_again = input("\nDo you want to play again? ")
         if play_again == "no":
-            print("Thank you for playing. Goodbye!")
+            print("Thank you for playing Blackjack!")
             break
         elif not play_again == "yes":
             print("Invalid input.")

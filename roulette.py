@@ -68,7 +68,7 @@ def play_roulette():
 
         return balance
 
-    balance = 1000
+    balance = 100
 
     while True:
         print("Balance: $", balance)

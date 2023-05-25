@@ -44,6 +44,14 @@ _(())\_)()/((_)  )\ )\   )\  '/((_) (_(_()))\  (_))  _  )\(_))/)\
   \_/\_/ \___|_\__\___/_|_|_|\___|    |_|\___/ |___/|_\___/\__/__/ 
 
 '''
+roulette_logo = """
+RRRRR     OOOO   UU   UU   LL        EEEEE  TTTTTTTTT  TTTTTTTT   EEEEE
+RR   RR  OO  OO  UU   UU   LL        EE        TT         TT      EE
+RRRRR    OO  OO  UU   UU   LL        EEEE      TT         TT      EEEE
+RR RR    OO  OO  UU   UU   LL        EE        TT         TT      EE
+RR  RR    OOOO   UUUUUUU   LLLLLL    EEEEE     TT         TT      EEEEE
+"""
+
 
 goodbye = '''
    ____                 _ _                _ 
